@@ -1,0 +1,28 @@
+{
+  "name": "plusterm",
+  "version": "0.0.1",
+  "description": "small, simple, elegant wrapper for xterm.js",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stretch07/plusterm.js.git"
+  },
+  "keywords": [
+    "xterm",
+    "wrapper",
+    "library"
+  ],
+  "author": "stretch07",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stretch07/plusterm.js/issues"
+  },
+  "homepage": "https://github.com/stretch07/plusterm.js#readme",
+  "dependencies": {
+    "xterm": "^5.3.0"
+  },
+"type": "module"
+}
