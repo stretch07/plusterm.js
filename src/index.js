@@ -18,7 +18,6 @@ export class Plusterm {
         this.PROMPT = prompt;
 
         this.SystemCommands = [
-            ...cmds,
             {
                 id: "id",
                 usage: "id command",
@@ -28,7 +27,6 @@ export class Plusterm {
                     term.writeln("uid=001(anonymous)");
                 },
             },
-
             {
                 id: "man",
                 usage: "man command",
@@ -51,6 +49,9 @@ export class Plusterm {
                 },
             },
         ]
+        if (cmds) {
+            this.SystemCommands.push(...cmds)
+        }
     }
     setPrompt(prompt) {
         this.prompt = prompt;
